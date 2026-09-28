@@ -16,29 +16,23 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* May 2022 - April 2024: Federal Institute for Materials Research and Testing
+  * Integrated and validated an indoor localization system for mobile robots. Implemented object avoidance algorithms. Conducted simulation-based optimization. Contributed to scientific publications.
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* July 2019 - August 2019: Siemens Healthiners
+  * Internship at Siemens Healthineers in Kemnath
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Python
+  * C++
+  * Matlab Simulink
+* Linux
+* Git
+* ROS2
+* Gazebo
+* CAD
 
 Publications
 ======
