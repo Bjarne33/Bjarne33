@@ -1,7 +1,7 @@
 ---
 title: "Air-Coupled Broadband Impact-Echo Actuation Using Supersonic Jet Flow"
 collection: publications
-category: journals
+category: manuscripts
 permalink: /publication/aircoupled_ie
 excerpt: 'This paper is on a new approach for impact echo with air-coupled actuation based on supersonic jet flow'
 date: 2024-05-13
