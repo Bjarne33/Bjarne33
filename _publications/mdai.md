@@ -9,7 +9,7 @@ state spaces while preserving the intuitive feature space used for goal
 specification.'
 date: 2024-09-07
 venue: 'In book: Modeling Decisions for Artificial Intelligence (pp.262-274)Publisher: Springer Nature'
-paperurl: 'https://www.researchgate.net/publication/414483161_Extending_Goal-Oriented_Specification_for_Reinforcement_Learning_to_High_Dimensions'
+paperurl: 'https://link.springer.com/chapter/10.1007/978-3-032-37976-4_21'
 citation: 'Extending Goal-Oriented Specification for Reinforcement Learning to High Dimensions; Bjarne Grotelüschen, Simon Schwan and Sabine Glesner; In book: Modeling Decisions for Artificial Intelligence (pp.262-274)Publisher: Springer Nature'
 ---
 

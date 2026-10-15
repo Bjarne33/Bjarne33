@@ -1,7 +1,17 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Extending Goal-Oriented Specification for Deep Reinforcement Learning to High-Dimensional State Spaces"
+excerpt: "This work extends goal-oriented specification for deep reinforcement learning to high-dimensional state spaces by introducing an intuitive feature space for defining goals independently of raw state representations. It also adds a dedicated training space, that is constructed from one or both representations, improving training in complex environments. Case studies in Pendulum and Pong show that the approach enables effective goal-oriented specification beyond low-dimensional settings.<br/>"
 collection: portfolio
 ---
 
-This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+Deep Reinforcement Learning is used in many complex control problems, such as autonomous driving and control of humanoid robots. The design of a reward function is one of the key challenges. It is often unintuitive and especially difficult for users with limited experience in Reinforcement Learning. Specification languages, in particular goal-oriented specification<sup><a href='#fn-schwan-2025' id='fnref-schwan-2025'>1</a></sup>, address this problem and represent an alternative approach to classical reward functions. However, goal-oriented specification defines goals as a subspace of the state space. Therefore, in practice, it is limited to intuitive and lower-dimensional state spaces. 
+
+This work extends goal-oriented specification to enable its application to high-dimensional state spaces. We introduce two extensions as our main contributions. First, we present an intuitive feature space that is independent of the high-dimensional state space. This allows defining goals as a subspace of the feature space. Second, we introduce a separate training space. The training space is constructed from either both the high-dimensional state space and the feature space or only one of them and is used as input for the agent. 
+<img src='/images/MDP_v3_cropped.png' width='700' style='height:auto; display:block; margin:24px auto 0;' alt='MDP figure'>
+<p style='text-align:center; margin-top:10px;'>Markov Decision Process composed of initial environment and engineered aspects. Adapted from Schwan et al.<sup><a href='#fn-schwan-2025' id='fnref-schwan-2025'>1</a></sup> Extensions of this work are added in green.</p>
+
+We validate the proposed approach with two case studies, using the Pendulum environment from the Gymnasium framework and the Pong environment from the Arcade Learning Environment. Our results demonstrate that goal-oriented specification can be successfully applied to high-dimensional state spaces. With this, we overcome prior limitations of goal-oriented specification and enable their application in high-dimensional state spaces.
+
+For further information, you can download the publication that resulted from this work at <a href='https://link.springer.com/chapter/10.1007/978-3-032-37976-4_21' target='_blank' rel='noopener noreferrer'>Springer Nature Link</a>. The code is available via <a href='https://doi.org/10.6084/m9.figshare.31820074.' target='_blank' rel='noopener noreferrer'>Figshare</a>.
+
+<p id='fn-schwan-2025' style='font-size:0.9em; margin-top:8px;'><sup>1</sup> Simon Schwan and Sabine Glesner. "Iterative Environment Design for Deep Reinforcement Learning Based on Goal-Oriented Specification:" in: Proceedings of the 17th International Conference on Agents and Artificial Intelligence. Porto, Portugal: SCITEPRESS - Science and Technology Publications, 2025, pp. 240-251.</p>
