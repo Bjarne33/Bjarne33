@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* M.Sc. Computational Engineering Science at Technische Universität Berlin, 2026
-* B.Sc. Computational Engineering Science at Technische Universität Berlin, 2023
+* M.Sc. Computational Engineering Science at Technische Universität Berlin, 2026, Final Grade: 1.1
+* B.Sc. Computational Engineering Science at Technische Universität Berlin, 2023, Final Grade: 1.8
 
 Work experience
 ======
@@ -21,18 +21,6 @@ Work experience
 
 * July 2019 - August 2019: Siemens Healthiners
   * Internship at Siemens Healthineers in Kemnath
-  
-Skills
-======
-* Programming
-  * Python
-  * C++
-  * Matlab Simulink
-* Linux
-* Git
-* ROS2
-* Gazebo
-* CAD
 
 Publications
 ======
@@ -46,12 +34,16 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
   
-Teaching
+Skills
 ======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+* Programming
+  * Python
+  * C++
+  * Matlab Simulink
+* Linux
+* Git
+* ROS2
+* Gazebo
+* CAD
   
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
